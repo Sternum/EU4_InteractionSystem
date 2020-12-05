@@ -230,8 +230,10 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
+		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "Custom" },
 		{ "IncludePath", "Interactable.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Interactable.h" },
 	};
 #endif
@@ -281,7 +283,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInteractable, 2702897123);
+	IMPLEMENT_CLASS(UInteractable, 3397348671);
 	template<> INTERACTIONSYSTEM_API UClass* StaticClass<UInteractable>()
 	{
 		return UInteractable::StaticClass();

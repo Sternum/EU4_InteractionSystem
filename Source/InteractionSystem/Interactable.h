@@ -10,7 +10,7 @@
 #include "Interactable.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
 class INTERACTIONSYSTEM_API UInteractable : public UActorComponent
 {
 	GENERATED_BODY()

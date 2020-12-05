@@ -11,7 +11,7 @@ UInteractable::UInteractable()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 	SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("Interaction Sphere"));
-	SphereComponent->SetSphereRadius(1000);
+	
 	if (GetOwner()) {
 		SphereComponent->AttachToComponent(GetOwner()->GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
 	}
