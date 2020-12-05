@@ -1,0 +1,26 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-InteractionSystem-2734.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\InteractionSystemEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\Interactable.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionComponent.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystem.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystemCharacter.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystemGameMode.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystemHUD.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystemProjectile.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\Interactable.gen.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionComponent.gen.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystem.init.gen.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystemCharacter.gen.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystemGameMode.gen.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystemHUD.gen.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\InteractionSystemProjectile.gen.cpp.obj"
+"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\Default.rc2.res"
+/OUT:"C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\UE4Editor-InteractionSystem-2734.lib"
+/INCLUDE:IMPLEMENT_MODULE_InteractionSystem

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\kamil\\OneDrive\\Dokumenty\\Unreal Projects\\InteractionSystem\\Source\\InteractionSystem\\InteractionSystem.Build.cs",
+		"C:\\Users\\kamil\\OneDrive\\Dokumenty\\Unreal Projects\\InteractionSystem\\Source\\InteractionSystem.Target.cs",
+		"C:\\Users\\kamil\\OneDrive\\Dokumenty\\Unreal Projects\\InteractionSystem\\Source\\InteractionSystemEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

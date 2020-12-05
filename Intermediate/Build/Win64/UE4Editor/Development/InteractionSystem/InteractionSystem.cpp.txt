@@ -1,0 +1,2 @@
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\Definitions.InteractionSystem.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Source\InteractionSystem\InteractionSystem.h

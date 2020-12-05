@@ -1,0 +1,10 @@
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\Definitions.InteractionSystem.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Source\InteractionSystem/InteractionSystemHUD.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Inc\InteractionSystem\InteractionSystemHUD.generated.h

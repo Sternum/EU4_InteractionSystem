@@ -1,0 +1,11 @@
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\Definitions.InteractionSystem.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Source\InteractionSystem\InteractionSystemProjectile.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Inc\InteractionSystem\InteractionSystemProjectile.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
