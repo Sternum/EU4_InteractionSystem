@@ -39,11 +39,6 @@ void UInteractable::TickComponent(float DeltaTime, ELevelTick TickType, FActorCo
 	// ...
 }
 
-int UInteractable::GetPriority() 
-{
-	return Priority;
-}
-
 bool UInteractable::CanInteract(AActor* Player)
 {
 	if (!CheckAngle(Player)) {
@@ -59,7 +54,6 @@ bool UInteractable::CanInteract(AActor* Player)
 
 void UInteractable::Interact() 
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, "Interact");
 	if (GetOwner() && GetWorld()) {
 		GetWorld()->DestroyActor(GetOwner());
 	}
@@ -84,7 +78,7 @@ bool UInteractable::CheckObstacle(AActor* Player)
 		FCollisionQueryParams collisionParams;
 		collisionParams.AddIgnoredActor(GetOwner());
 		FHitResult OutHit;
-		if (GetWorld()->LineTraceSingleByChannel(OutHit, InteractableLocation, Player->GetActorLocation(), ECC_WorldStatic, collisionParams)) {
+		if (GetWorld()->LineTraceSingleByChannel(OutHit, InteractableLocation, Player->GetActorLocation(), ECC_GameTraceChannel2, collisionParams)) {
 			if (OutHit.GetActor()->FindComponentByClass<UInteractionComponent>()) {
 				return true;
 			}

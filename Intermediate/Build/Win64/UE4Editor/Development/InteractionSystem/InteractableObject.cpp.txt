@@ -1,0 +1,9 @@
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Development\InteractionSystem\Definitions.InteractionSystem.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Source\InteractionSystem\InteractableObject.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Source\InteractionSystem\Interactable.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Inc\InteractionSystem\Interactable.generated.h
+C:\Users\kamil\OneDrive\Dokumenty\Unreal Projects\InteractionSystem\Intermediate\Build\Win64\UE4Editor\Inc\InteractionSystem\InteractableObject.generated.h

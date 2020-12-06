@@ -39,7 +39,7 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	bool CanInteract(AActor* Player);
-	int GetPriority();
+
 	void Interact();
 
 	UFUNCTION()

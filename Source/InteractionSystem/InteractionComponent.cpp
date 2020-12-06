@@ -33,9 +33,6 @@ void UInteractionComponent::InteractAction()
 			Interactable->Interact();
 			return;
 		}
-		else {
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, "Nope");
-		}
 	}
 }
 
@@ -50,20 +47,18 @@ void UInteractionComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 void UInteractionComponent::SubscribeInteractable(UInteractable* interactable)
 {
 	Interactables.Add(interactable);
-	//SortInteractableByPriority();
 }
 
 void UInteractionComponent::UnSubscribeInteractable(UInteractable* interactable)
 {
 	Interactables.Remove(interactable);
-	//SortInteractableByPriority();
 }
 
 void UInteractionComponent::SortInteractableByPriority()
 {
+
 	Interactables.Sort([](const UInteractable& A, const UInteractable& B) {
-		
-		return A.Priority < B.Priority;
+		return A.Priority > B.Priority;
 	});
 }
 
