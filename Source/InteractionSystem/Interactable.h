@@ -31,15 +31,11 @@ protected:
 	
 private: 
 	FVector InteractableLocation;
-
 	bool CheckAngle(AActor* Player);
 	bool CheckObstacle(AActor* Player);
 
 public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	bool CanInteract(AActor* Player);
-
 	void Interact();
 
 	UFUNCTION()

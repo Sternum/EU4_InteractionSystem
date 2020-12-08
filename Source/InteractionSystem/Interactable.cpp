@@ -22,34 +22,29 @@ UInteractable::UInteractable()
 void UInteractable::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &UInteractable::OnOverlapBegin);
 	SphereComponent->OnComponentEndOverlap.AddDynamic(this, &UInteractable::OnOverlapEnd);
 
-	InteractableLocation = GetOwner()->GetActorLocation();
-
-
-}
-
-
-// Called every frame
-void UInteractable::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	// ...
+	if (GetOwner()) {
+		InteractableLocation = GetOwner()->GetActorLocation();
+	}
 }
 
 bool UInteractable::CanInteract(AActor* Player)
 {
-	if (!CheckAngle(Player)) {
-		return false;
-	}
+	if (Player && Player != nullptr) {
+		if (!CheckAngle(Player)) {
+			return false;
+		}
 
-	if (!CheckObstacle(Player)) {
-		return false;
-	}
+		if (!CheckObstacle(Player)) {
+			return false;
+		}
 
-	return true;
+		return true;
+	}
+	return false;
 }
 
 void UInteractable::Interact() 
@@ -61,15 +56,18 @@ void UInteractable::Interact()
 
 bool UInteractable::CheckAngle(AActor* Player) 
 {
-	FVector PlayerForwardVector = Player->GetActorForwardVector();
-	FVector const PlayerToInteractableLocation = (InteractableLocation - Player->GetActorLocation()).GetSafeNormal();
-	PlayerForwardVector.Normalize();
+	if (Player && Player != nullptr) {
+		FVector PlayerForwardVector = Player->GetActorForwardVector();
+		FVector const PlayerToInteractableLocation = (InteractableLocation - Player->GetActorLocation()).GetSafeNormal();
+		PlayerForwardVector.Normalize();
 
-	float Dot = FVector::DotProduct(PlayerForwardVector, PlayerToInteractableLocation);
+		float Dot = FVector::DotProduct(PlayerForwardVector, PlayerToInteractableLocation);
 
-	float angle = FMath::Acos(Dot) * (180 / PI);
-	
-	return angle < 45.0f ? true : false;
+		float angle = FMath::Acos(Dot) * (180 / PI);
+
+		return angle < 45.0f ? true : false;
+	}
+	return false;
 }
 
 bool UInteractable::CheckObstacle(AActor* Player)

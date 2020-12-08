@@ -147,10 +147,6 @@ void AInteractionSystemCharacter::SetupPlayerInputComponent(class UInputComponen
 		
 		PlayerInputComponent->BindAction("Interact", IE_Pressed, InteractionComponent, &UInteractionComponent::InteractAction);
 	}
-	else {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "nope Bind");
-	}
-	
 }
 
 void AInteractionSystemCharacter::OnFire()
