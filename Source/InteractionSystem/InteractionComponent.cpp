@@ -35,8 +35,10 @@ void UInteractionComponent::SubscribeInteractable(UInteractable* interactable)
 
 void UInteractionComponent::UnSubscribeInteractable(UInteractable* interactable)
 {
-	if(interactable && interactable != nullptr)
-	Interactables.Remove(interactable);
+	if (interactable && interactable != nullptr) {
+		Interactables.Remove(interactable);
+	}
+	
 }
 
 void UInteractionComponent::SortInteractableByPriority()
