@@ -36,7 +36,7 @@ private:
 
 public:	
 	bool CanInteract(AActor* Player);
-	void Interact();
+	virtual void Interact();
 
 	UFUNCTION()
 	void OnOverlapBegin( 
